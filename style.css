@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    min-height: 100dvh;
+    background-color: #080808;
+    background-position: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+a, a:visited, a:active {
+    text-decoration: none;
+    width: 100%;
+}
+
+.more-info {
+    transition: all;
+    transition-timing-function: ease-in;
+    transition-duration: 1;
+}
